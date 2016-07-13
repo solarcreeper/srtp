@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+img{border:0}/* css 注释说明：设置图片边框为0 */ 
+span,p{font-family:'微软雅黑';}
+#content{
+	width:900px;
+	height:1500px;
+	top:10px;
+	position:relative;
+	margin:0 auto;
+	background-color:#FFF;
+	overflow:hidden;
+	}
+#intro{
+	width:860px;
+	height:240px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.title{
+	font-size:18px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+hr{margin-top:30px;position:relative;height:1px;color:#999;}
+#intro_img{
+	width:195px;
+	height:190px;
+	position:absolute;
+	top:45px;
+	}
+#intro_word{
+	width:645px;
+	height:190px;
+	position:absolute;
+	left:215px;
+	top:45px;
+	font-size:14px;
+	line-height:2em;
+	}
+#subIntro{
+	width:860px;
+	height:885px;
+	top:45px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	}
+#weibo{
+	width:860px;
+	height:65px;
+	top:50px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	}
+#manage{
+	width:860px;
+	height:140px;
+	top:0px;
+	position:relative;
+    margin:0 auto;
+	overflow:hidden;
+	}
+
+#sub1{
+	width:286px;
+	height:385px;
+	top:50px;
+	left:0px;
+	position:absolute;
+	}
+.subImg{ 
+    width:286px;
+	height:190px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	} 
+.subImg a,.subImg span{
+	display:none; 
+	text-decoration:none;
+	}
+.subImg span p{
+	font-family:"微软雅黑";
+	position:absolute;
+	width:280px;
+	height:20px;
+	text-align:left;
+	top:135px;
+	left:10px;
+	z-index:999;
+	}
+.subImg:hover{
+	cursor:pointer;
+	} 
+.subImg:hover a.now{
+	cursor:pointer; 
+	position:absolute; 
+	top:0; 
+	width:100%; 
+	height:100%;
+    z-index:100; 
+	left:0; 
+	display:block;
+	}
+.subImg:hover span{ 
+     display:block;
+	 position:absolute; 
+	 bottom:0; 
+	 left:0;
+	 color:#FFF;
+	 width:286px; 
+     z-index:10;
+	 height:190px; 
+	 line-height:36px; 
+	 background:#000;
+	 filter:alpha(opacity=60);
+	 -moz-opacity:0.5;opacity: 0.5;}
+/* 设置显示文字定位位置，背景半透明 */ 
+.subTitle{
+	position:absolute;
+	top:205px;
+	left:6px;
+	color:#A70C12;
+	}
+.subWord{
+	position:absolute;
+	top:240px;
+	width:270px;
+	left:6px;
+	height:140px;
+	font-size:14px;
+	color:#707070;
+	text-indent:2em;
+	}
+#sub2{
+	width:286px;
+	height:385px;
+	top:50px;
+	left:286px;
+	position:absolute;
+	}
+#sub3{
+	width:286px;
+	height:385px;
+	top:50px;
+	left:572px;
+	position:absolute;
+	}
+#sub4{
+	width:286px;
+	height:385px;
+	top:460px;
+	left:0px;
+	position:absolute;
+	}
+#sub5{
+	width:286px;
+	height:385px;
+	top:460px;
+	left:286px;
+	position:absolute;
+	}
+#sub6{
+	width:286px;
+	height:385px;
+	top:460px;
+	left:572px;
+	position:absolute;
+	}
+#manageList{
+	position:absolute;
+	top:45px;
+	left:10px;
+	}
+#manageList a {
+	font-size:16px;
+	line-height:30px;
+	color:#333;
+	}
+#manageList a img{
+	top:-3px;
+	position:relative
+	}
+#manageList a:hover{
+	color:#A70C12;
+	}

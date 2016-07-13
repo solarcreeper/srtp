@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<head>
+	<script src="../../js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../../js/jquery-1.6.2.min"></script>
+    <script src="../../js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/news.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="../../css/news.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/Login.css">
+    <link rel="shortcut icon" href="../../images/favicon.ico"  type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style type="text/css">
+body{background:url(../../images/newsBg.png) no-repeat; background-position:0 80px;}
+</style>
+</head>
+<body>
+<div id="header">
+<a id="logo" href="../index.html"><img src="../../images/logo.png"></a>
+<div id="navMenu">
+
+<ul id="nav">
+    <li style="width:50px;"><a href="../index.html" >首页</a>
+        <ul>
+           <li><a href="../index.html#intro">中心简介</a></li>
+           <li><a href="../index.html#subIntro">分中心简介</a></li>
+           <li><a href="../index.html#manage">管理制度</a></li>
+        </ul>
+    </li>
+    <li style="width:85px;"><a style="color:#A70C12;" href="news.html">新闻公告</a>
+        <ul>
+            <li><a href="news.html#" onclick="setTab('news',1)">学科前沿</a></li>
+            <li><a href="news.html#" onclick="setTab('news',2)">中心新闻</a></li>
+            <li><a href="news.html#" onclick="setTab('news',3)">教学公告</a></li>
+            <li><a href="news.html#" onclick="setTab('news',4)">活动公告</a></li>
+        </ul>
+    </li>
+    <li style="width:85px;"><a href="../class/class.html">教学安排</a>
+        <ul>
+            <li><a  href="../class/class.html#" onclick="setTab('class',1)">课程计划</a></li>
+            <li><a href="../class/class.html#" onclick="setTab('class',2)">已修学分</a></li>
+        </ul>
+    </li>
+    <li style="width:85px;"><a href="../exhibition/exhibition.html#">成果展示</a>
+         <ul>
+            <li><a href="../exhibition/exhibition.html#">软件创新实践班</a></li>
+            <li><a href="../exhibition/exhibition.html#" >材料创新实践班</a></li>
+            <li><a href="../exhibition/exhibition.html#" >机械创新实践班</a></li>
+            <li><a href="../exhibition/exhibition.html#" >人文创新实践班</a></li>
+            <li><a href="../exhibition/exhibition.html#" >机器人团队</a></li>
+            <li><a href="../exhibition/exhibition.html#" >方程式赛车团队</a></li>
+        </ul>
+    </li>
+    
+    <li style="width:85px;"><a href="../communication.html">交流平台</a>   
+    </li>
+    <li style="width:85px;"><a href="../joinUs.php">加入我们</a>
+    
+    </li>
+  
+</ul>
+
+</div>
+
+
+<div id="login">
+
+<div id="loginImg"  style="text-align:center";><a href="../../functions/homepage_login.php"><img src="../../images/login.png"></a></div>
+</div>
+</div>
+
+
+<div class="tab" id="tab">
+	<div class="menu">
+   
+		<ul class="tabbtn">
+			<li id="news1" onclick="setTab('news',1)">学科前沿</li>
+			<li id="news2" onclick="setTab('news',2)">中心新闻</li>
+			<li id="news3" onclick="setTab('news',3)">教学公告</li>
+			<li id="news4" onclick="setTab('news',4)">活动公告</li>
+		</ul>
+	</div>
+    
+	<div class="menudiv">
+    
+	<iframe src="advancedNews.php" frameborder='0' style='border: 0; width: 100%; height: 99.4%;' scrolling="no"> 
+</iframe> 
+    
+    
+	</div>
+</div>
+
+<div id="footer" style="position:absolute;top:1300px;">
+<div id="footer_content" style="position:relative;margin:0 auto;" >
+<br/>
+<br/>
+<p>友情链接：<a style="display:inline" href="http://www.cqu.edu.cn">重庆大学</a>|</font><a style="display:inline" href="http://huxi.cqu.edu.cn/">重庆大学虎溪校区</a><font color=#feecd2>|</font><a style="display:inline" href="http://www.jwc.cqu.edu.cn">重庆大学教务网</a><font color=#feecd2>|</font><a style="display:inline" href="http://lib.cqu.edu.cn">数字图书馆</a><font color=#feecd2>|</font></p>
+<p>
+        联系电话:023-65678008 校区地址：重庆大学城▪重庆大学虎溪校区第一实验楼 邮编：401331
+        <br>SRTP小组&copy;版权所有
+</p>
+
+</div>
+</div>
+</body>

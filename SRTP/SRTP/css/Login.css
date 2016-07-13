@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li{padding:0;margin:0;font-family:'微软雅黑';}
+#login_box{
+	width:541px;
+	height:424px;
+	margin:0 auto;
+	position:relative;
+	margin-top:70px;
+	background-image:url(../images/login_bg.png);
+	}
+#login_content{
+	width:282px;
+	height:225px;
+	margin-left:128px;
+	margin-right:128px;
+	top:20%;
+	position:absolute;
+	}
+#login_content li{
+	list-style:none;
+	line-height:3em;
+	}
+#login_content p{
+	display:inline;
+	color:#666;
+	}
+#login_content .text{
+	width:220px;
+	height:30px;
+	background-image:url(../images/text_box.png);
+	border-style:none;
+	
+	}
+#login_content .button{
+	position:absolute;
+	right:5px;
+	bottom:0px;
+	width:70px;
+	height:30px;
+	color:#FFF;
+	background-color:#A70312;
+	border-style:none;
+	}
+#login_content .button a{
+	color:#FFF;
+	background-color:#A70312;
+	text-decoration:none;
+}
+#login_content .button a:hover{
+	color:#A70312;
+	background-color:#999;
+	text-decoration:none;
+}

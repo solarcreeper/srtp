@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+#imgPlay{
+	width::100%;
+	height:470px;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+	}
+#imgPlay .imgs IMG {
+	width:100%; height:440px;
+	  
+}
+#imgPlay .imgs LI {
+	float: left; position: relative;margin-left:0px;list-style:none;
+}
+#imgPlay .imgs {
+	width: 100%;
+}
+#imgPlay .prev {
+	background: url(../images/imgPlayer.png) no-repeat 0px 0px; left: 1px; width: 40px; CURSOR: pointer; text-indent: -9999px; position: absolute; TOP: 200px; height: 40px;background-position: left 0px; left: 50px; 
+}
+#imgPlay .next {
+	background: url(../images/imgPlayer.png) no-repeat 0px 0px; left: 1px; width: 40px; cursor: pointer; text-indent: -9999px; position: absolute; top: 200px; height: 40px;
+}
+#imgPlay .next {
+	background-position: right 0px; right: 50px; left: auto;
+}
+
+#imgPlay .num span {
+	display: inline-block; background: url(../images/imgPlayer.png) no-repeat -23px -40px; margin:0px 2px; overflow: hidden; width: 14px; cursor: pointer; line-height: 0; height: 18px; top:450px;
+}
+#imgPlay .num SPAN.on {
+	background-position: 0px -40px;
+}
+
+#imgPlay #numInner {
+   position: absolute; top:450px;height:18px;margin:0px auto;
+}
+
+
